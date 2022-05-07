@@ -19,17 +19,13 @@ if (navigator.serviceWorker) {
  * Input
  */
 function myButtonClicked() {
-var counter = 1;
-for (var counter = 0; counter <= 10; i++) {
+var counter = 0;
+for (var counter = 0; counter <= counter; counter++) {
     var result = counter * counter;
-    console.log(counter + ' * ' + counter + ' = ' + result);
 }
-
-
-for (var counter = 0; counter <= 10; counter++) {
- for (var counter = 0; counter <= 10; counter++) {
+for (var counter = 0; counter <= counter; counter++) {
+ for (var counter = 0; counter <= 1; counter++) {
    var result = counter * counter;
-   console.log(counter + ' * ' + counter + ' = ' + result);
 //let text = "";
 //let counter = 0;
 
@@ -39,7 +35,7 @@ for (var counter = 0; counter <= 10; counter++) {
 //}
 //while (counter < 10);  
 
-document.getElementById("answer").innerHTML = "The answer is " + counter;
+document.getElementById("answer").innerHTML = counter + ' * ' + counter + ' = ' + result;
   }
  }
 }
