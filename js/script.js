@@ -41,4 +41,5 @@ for (var counter = 0; counter <= 10; counter++) {
 
 document.getElementById("answer").innerHTML = "The answer is " + counter;
   }
+ }
 }
