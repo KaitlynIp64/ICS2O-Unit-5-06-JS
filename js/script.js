@@ -19,17 +19,15 @@ if (navigator.serviceWorker) {
  * Input
  */
 function myButtonClicked() {
-  var sideA = document.getElementById("sideA").value;
-  var sideB = document.getElementById("sideB").value;
-  var sideC = document.getElementById("sideC").value;
-  // process
-  if (sideA == sideB && sideB == sideC) {
-    document.getElementById("answer").innerHTML =
-      "This is an equilateral triangle.";
-  } else if (sideA == sideB || sideB == sideC || sideA == sideC) {
-    document.getElementById("answer").innerHTML =
-      "This is an isosceles triangle.";
-  } else {
-    document.getElementById("answer").innerHTML = "This is a scalene triangle.";
+let text = ""
+let counter = 0;
+
+do {
+  text += "<br>The number is " + counter;
+  counter++;
+}
+while (counter < 10);  
+
+document.getElementById("demo").innerHTML = "The answer is " + counter;
   }
 }
