@@ -19,15 +19,26 @@ if (navigator.serviceWorker) {
  * Input
  */
 function myButtonClicked() {
-let text = ""
-let counter = 0;
-
-do {
-  text += "<br>The number is " + counter;
-  counter++;
+var counter = 1;
+for (var counter = 0; counter <= 10; i++) {
+    var result = counter * counter;
+    console.log(counter + ' * ' + counter + ' = ' + result);
 }
-while (counter < 10);  
 
-document.getElementById("demo").innerHTML = "The answer is " + counter;
+
+for (var counter = 0; counter <= 10; counter++) {
+ for (var counter = 0; counter <= 10; counter++) {
+   var result = counter * counter;
+   console.log(counter + ' * ' + counter + ' = ' + result);
+//let text = "";
+//let counter = 0;
+
+//do {
+//  text += "<br>The number is " + counter;
+//  counter++;
+//}
+//while (counter < 10);  
+
+document.getElementById("answer").innerHTML = "The answer is " + counter;
   }
 }
