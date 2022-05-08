@@ -20,11 +20,11 @@ if (navigator.serviceWorker) {
  */
 function myButtonClicked() {
 var counter = 0;
-for (var counter = 0; counter <= counter; counter++) {
+for (var counter = 0; counter <= 3; counter++) {
     var result = counter * counter;
 }
-for (var counter = 0; counter <= counter; counter++) {
- for (var counter = 0; counter <= 1; counter++) {
+for (var counter = 0; counter <= 3; counter++) {
+ for (var counter = 0; counter <= 3; counter++) {
    var result = counter * counter;
 //let text = "";
 //let counter = 0;
