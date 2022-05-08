@@ -34,7 +34,6 @@ for (var counter = 0; counter <= 3; counter++) {
 //  counter++;
 //}
 //while (counter < 10);  
-
 document.getElementById("answer").innerHTML = counter + ' * ' + counter + ' = ' + result;
   }
  }
