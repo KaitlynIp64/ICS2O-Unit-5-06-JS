@@ -18,7 +18,7 @@ if (navigator.serviceWorker) {
 /**
  * Input
  */
-function doMathClicked () {
+function myButtonClicked () {
   // This code will multiply your two numbers with while loops (repeated addition)
 
   const counter1 = parseInt(document.getElementById('counter1').value)
