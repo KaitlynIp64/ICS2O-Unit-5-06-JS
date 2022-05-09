@@ -18,23 +18,35 @@ if (navigator.serviceWorker) {
 /**
  * Input
  */
-function myButtonClicked() {
-var counter = 0;
-for (var counter = 0; counter <= 3; counter++) {
-    var result = counter * counter;
-}
-for (var counter = 0; counter <= 3; counter++) {
- for (var counter = 0; counter <= 3; counter++) {
-   var result = counter * counter;
-//let text = "";
-//let counter = 0;
+function doMathClicked () {
+  // This code will multiply your two numbers with while loops (repeated addition)
 
-//do {
-//  text += "<br>The number is " + counter;
-//  counter++;
-//}
-//while (counter < 10);  
-document.getElementById("answer").innerHTML = counter + ' * ' + counter + ' = ' + result;
+  const counter1 = parseInt(document.getElementById('counter1').value)
+	const counter2 = parseInt(document.getElementById('counter2').value)
+  var addedNumber = 0
+  var answer = 0
+
+  if (counter1 > 0 && counter2 > 0) {
+    while (addedNumber < counter2) {
+      addedNumber = addedNumber + 1;
+      answer = answer + counter1;
+    }
+  } else if (counter1 < 0 && counter2 < 0) {
+    while (addedNumber > counter2) {
+      addedNumber = addedNumber - 1;
+      answer = answer - counter1;
+    }
+  } else if (counter1 > 0 && counter2 < 0) {
+    while (addedNumber > counter2) {
+      addedNumber = addedNumber - 1;
+      answer = answer - counter1;
+    }
+  } else if (counter1 < 0 && counter2 > 0) {
+    while (addedNumber < counter2) {
+      addedNumber = addedNumber + 1;
+      answer = answer + counter1;
+    }
   }
- }
+  
+  document.getElementById('answer').innerHTML = counter1 + " x " + addedNumber + " = " + answer;
 }

@@ -32,28 +32,17 @@
           <span class="mdl-layout-title">Muliplication Loops, with JS</span>
         </div>
       </header>
-      <main class="mdl-layout__content">
-        <!-- Numeric Textfield -->
-        <form action="#">
-          <p>Enter Integer</p>
-          <div class="mdl-textfield mdl-js-textfield">
-            <input
-              class="mdl-textfield__input"
-              type="number" min="0" step=".01"
-              id="counter"
-            />
-            <label class="mdl-textfield__label" for="counter">Enter Integer ...</label>
-            <span class="mdl-textfield__error">Input is not a number!</span>
-          </div>
-        </form>
+       <p>
+      Enter the two numbers you want to multiply (Integers only):
+      <form action="javascript:doMathClicked()">
+        <label for="counter1">First Integer: </label>
+        <input type="number" id="counter1" placeholder="ex: -2"><br><br>
+        <label for="counter2">Second Integer: </label>
+        <input type="counter2" id="counter2" placeholder="ex: 18"><br><br>
         <!-- Raised button with ripple -->
             <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick= "myButtonClicked()">
-              Calculate
+              Identify
             </button>
-        <div id="answer"></div>
-      </main>
-    </div>
+    <p id="answer"></p>
   </body>
 </html>
-
-  
