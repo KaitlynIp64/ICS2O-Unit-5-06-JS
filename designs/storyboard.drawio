@@ -1,14 +1,35 @@
 <mxfile host="65bd71144e">
     <diagram id="1p72XEvBxKhLjHRYCr1K" name="Page-1">
-        <mxGraphModel dx="594" dy="529" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="678" dy="357" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="2" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                <mxCell id="2" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
                     <mxGeometry x="30" y="30" width="350" height="350" as="geometry"/>
                 </mxCell>
-                <mxCell id="3" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-                    <mxGeometry x="280" y="240" width="60" height="30" as="geometry"/>
+                <mxCell id="3" value="&lt;font style=&quot;font-size: 18px&quot;&gt;Multiplication Loops, With JS&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="50" y="40" width="260" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Enter two integers you want to multiply:" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="30" y="70" width="220" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="First Integer:" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="30" y="100" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Second Integer:" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="30" y="150" width="100" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="6" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="120" width="100" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="-8" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="170" width="100" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Identify" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE7C2;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="210" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="&lt;font style=&quot;font-size: 12px&quot;&gt;6 x -8 = -48&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="15" y="250" width="130" height="30" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
